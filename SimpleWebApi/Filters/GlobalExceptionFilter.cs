@@ -13,7 +13,7 @@ namespace SimpleWebApi.Web.Middleware
 
             context.Result = new ObjectResult(new
             {
-                error = "Cicki",
+                error = "An exception has occured.",
                 message = exception.Message
             })
             {
